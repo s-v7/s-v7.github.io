@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages => {S-v7}
 
 You can use the [editor on GitHub](https://github.com/s-v7/s-v7.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -14,13 +14,13 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
-
+url = (htts://goole.com)
 - Bulleted
 - List
 
 1. Numbered
 2. List
-3.**Silas** Vasconcelos Cruz
+3.**Silas Vasconcelos Cruz**
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
