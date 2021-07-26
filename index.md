@@ -23,7 +23,7 @@ url = (htts://goole.com)
 3.**Silas Vasconcelos Cruz**
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](htts://goole.com) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
