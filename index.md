@@ -6,4 +6,7 @@
 ### Markdown
 
 <p style="text-align:center">Center this text</p>
+<font color="red">This text is red!</font>
 
+![Albuquerque, New Mexico](/assets/images/albuquerque.jpg)
+*A single track trail outside of Albuquerque, New Mexico.
