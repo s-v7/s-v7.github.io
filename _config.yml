@@ -1,1 +1,6 @@
-theme: jekyll-theme-architect
+theme: null 
+plugins: []
+exclude:
+  - README.md
+  - _config.yml
+
