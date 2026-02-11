@@ -1,0 +1,138 @@
+
+
+:root{
+ --crea-blue:#0b3d91;
+ --crea-blue-light:#1d4ed8;
+ --crea-cyan:#38bdf8;
+ --crea-green:#16a34a;
+ --bg:#0b1220;
+ --card:#0f172a;
+ --border:#1f2a44;
+ --text:#e6edf3;
+}
+
+*{box-sizing:border-box}
+
+
+/* NAVBAR */
+
+nav{
+ position:sticky;
+ top:0;
+ backdrop-filter: blur(8px);
+ background:rgba(2,6,23,.75);
+ border-bottom:1px solid var(--border);
+ padding:14px 28px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ z-index:10;
+}
+
+.nav-title{
+ font-weight:700;
+ letter-spacing:.5px;
+}
+
+.nav-links a{
+ color:#cbd5f1;
+ text-decoration:none;
+ margin-left:20px;
+ font-size:14px;
+ opacity:.85;
+}
+
+.nav-links a:hover{
+ color:var(--crea-cyan);
+}
+
+body {
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto;
+  background: #0b0f19;
+  color: #e6edf3;
+}
+
+header {
+  padding: 40px;
+  text-align:center;
+  background: linear-gradient(135deg,#0f172a,#020617);
+  border-bottom: 1px solid #1f2937;
+}
+
+h1 {
+  margin:0;
+  font-size: 36px;
+}
+
+.subtitle {
+  opacity:.7;
+  margin-top:10px;
+}
+
+.badge-row{
+ margin-top:22px;
+}
+
+.badge{
+ display:inline-block;
+ background:#020617;
+ border:1px solid var(--border);
+ padding:6px 12px;
+ border-radius:20px;
+ font-size:12px;
+ margin:4px;
+}
+
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.card {
+  background:#111827;
+  border:1px solid #1f2937;
+  border-radius:14px;
+  padding:24px;
+  transition:.25s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color:#38bdf8;
+  box-shadow:0 0 20px rgba(56,189,248,.15);
+}
+
+.card h3 {
+  margin-top:0;
+}
+
+.card a {
+  text-decoration:none;
+  color:#38bdf8;
+  font-weight:600;
+}
+
+.tag {
+  display:inline-block;
+  background:#1f2937;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-right:6px;
+  opacity:.8;
+}
+
+footer {
+  text-align:center;
+  padding:30px;
+  opacity:.5;
+}
+
