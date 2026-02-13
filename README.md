@@ -1,31 +1,124 @@
-# 🎉 Bem-vindo ao Portfólio de Silas Vasconcelos Cruz
+# Technical Hub — CREAPI + AI
 
-🚀 **Desenvolvedor Full Stack | Especialista em Java EE, Python, Blockchain e Redes Neurais**
+**GovTech • AI • Analytics • Automation • Institutional Platforms**
 
----
+This repository hosts the **CREAPI + AI Technical Hub**, a public technical documentation portal that presents architectural overviews, platform capabilities, and governance standards for analytical systems, AI engines, and institutional platforms developed for the CREA / CONFEA ecosystem.
 
-## 📌 **Seções do Portfólio**
-🔹 [Home](https://s-v7.github.io/portfolio-silas/)  
-🔹 [Sobre Mim](https://s-v7.github.io/portfolio-silas/#sobre)  
-🔹 [Educação](https://s-v7.github.io/portfolio-silas/#educacao)  
-🔹 [Experiência Profissional](https://s-v7.github.io/portfolio-silas/#experiencia)  
-🔹 [Cursos e Certificações](https://s-v7.github.io/portfolio-silas/#cursos)  
-🔹 [Eventos e Palestras](https://s-v7.github.io/portfolio-silas/#eventos)  
-🔹 [Projetos](https://s-v7.github.io/portfolio-silas/#projetos)  
-🔹 [Habilidades](https://s-v7.github.io/portfolio-silas/#habilidades)  
-
-📢 **Acesse o portfólio completo:**  
-👉 **[s-v7.github.io/portfolio-silas](https://s-v7.github.io/portfolio-silas/)**
+The goal is to provide **public technical transparency** — including architecture, scope, and design standards — without exposing private source code or institutional data.
 
 ---
 
-## 📬 **Contato**
-💼 [LinkedIn](https://www.linkedin.com/in/silasvasconceloscruz)  
-📧 **Email:** silas@example.com  
-💻 [GitHub](https://github.com/s-v7)  
+# Hub Online
+
+**Access the Technical Hub:**  
+https://s-v7.github.io/ -> por enquanto...
 
 ---
 
-🔹 **Autor:** Silas Vasconcelos Cruz  
-📅 **Última Atualização:** Fevereiro 2025  
+# Platforms Documented in the Hub
+
+## ART Analysis Engine
+
+Technical and semantic ART validation engine using deterministic rules, supervised LLM enrichment, and versioned execution graphs.
+
+**Includes:**
+
+- auditable rule engine  
+- database × PDF crosscheck  
+- versioned execution DAG  
+- semantic enrichment  
+- legal governance model  
+
+---
+
+## CREAPI Public Bot
+
+Institutional normative assistant with RAG, organogram routing, and compliance guardrails.
+
+**Includes:**
+
+- structured normative knowledge base  
+- supervised LLM responses  
+- policy guardrails  
+- institutional routing logic  
+- citation-based answers  
+
+---
+
+## CREAPI Analytical Platform (Dashboard)
+
+Institutional analytics platform with ML, OCR, RAG, automations, and strategic dashboards.
+
+**Includes:**
+
+- operational analytics  
+- predictive ML models  
+- risk & delinquency analysis  
+- OCR + NLP pipelines  
+- audit & traceability layers  
+- scheduled automations  
+
+---
+
+## SistemaCrea
+
+Enterprise Java EE institutional platform with government integrations, ART workflows, registry modules, and online services.
+
+---
+
+# Private Projects Transparency Standard
+
+All documented platforms follow this principle:
+
+> **Private Codebase — Public Technical Documentation**
+
+Meaning:
+
+- source code: private  
+- business rules: private  
+- credentials & connectors: private  
+- **architecture, scope, and capabilities: public**
+
+This ensures technical transparency without institutional risk exposure.
+
+---
+
+# Application Domain
+
+This hub covers technologies applied to:
+
+- CREA / CONFEA ecosystems  
+- regulatory systems  
+- government analytics platforms  
+- AI for compliance  
+- institutional automation  
+- data governance  
+- public-sector DevSecOps  
+
+---
+
+# Primary Technology Stack
+
+- Java EE / Jakarta  
+- Python / FastAPI / Streamlit  
+- PostgreSQL  
+- Machine Learning  
+- supervised LLM systems  
+- OCR + NLP  
+- Kubernetes  
+- Ansible / Terraform  
+- CI/CD pipelines  
+- Government APIs  
+
+---
+
+# Technical Architect
+
+**— @s-v7**  
+GovTech • Backend • AI Systems • Institutional Platforms
+
+---
+
+# Hub Status
+
 

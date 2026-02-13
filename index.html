@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Hub — CREA</title>
+<title data-site-title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -10,20 +10,17 @@
 <body>
 
 <nav>
-<div class="nav-title">CREAPI + IA — Tech Hub</div>
+<div class="nav-title" data-site-name></div>
 <div class="nav-links">
-<a href="#">Hub</a>
-<a href="https://github.com/s-v7">GitHub</a>
+<a href="../index.html" data-site-hub>Hub</a>
+<a href="https://github.com/creapiaui" target="_blank" rel="noopener">GitHub</a>
 </div>
 </nav>
 
 <header>
+<h1 data-site-name></h1>
 
-<h1>Hub Técnico — CREAPI + IA</h1>
-
-<div class="subtitle">
-Arquitetura • DevSecOps • IA • Sistemas Governamentais
-</div>
+<div class="subtitle" data-site-subtitle></div>
 
 <div class="badge-row">
 <span class="badge">Java EE</span>
@@ -37,63 +34,59 @@ Arquitetura • DevSecOps • IA • Sistemas Governamentais
 
 <div class="container">
 
-<div class="section-title">Projetos Principais</div>
-
 <div class="grid">
-
-<!-- CARD -->
-
 <div class="card">
 <h3>ART Analysis Engine</h3>
-<p>Motor IA para análise de ART com regras, crosscheck e LLM.</p>
+<p>AI engine for ART analysis with rules, crosscheck, and LLM.</p>
 <div>
 <span class="tag">Python</span>
 <span class="tag">ML</span>
 <span class="tag">RAG</span>
 </div>
-<a class="btn" href="https://s-v7.github.io/art-analysis-engine/">Docs</a>
+<a class="btn" href="docs/art-engine.html">DOCS</a>
 </div>
 
 <div class="card">
 <h3>CREAPI Public Bot</h3>
-<p>Bot normativo + RAG + webhooks + CONFEA.</p>
+<p>Normative bot + RAG + webhooks + CONFEA.</p>
 <div>
 <span class="tag">FastAPI</span>
 <span class="tag">LLM</span>
 <span class="tag">Gov</span>
 </div>
-<a class="btn" href="https://s-v7.github.io/creapi-public-bot/">Docs</a>
+<a class="btn" href="docs/bot.html">DOCS</a>
 </div>
 
 <div class="card">
-<h3>Dashboard CREAPI</h3>
-<p>Painéis analíticos e IA preditiva institucional.</p>
+<h3>CREAPI Dashboard</h3>
+<p>Analytical dashboards and institutional predictive AI.</p>
 <div>
 <span class="tag">Streamlit</span>
 <span class="tag">Analytics</span>
 <span class="tag">ML</span>
 </div>
-<a class="btn-green btn" href="https://s-v7.github.io/dashboard_creapi/">Abrir</a>
+<a class="btn" href="docs/dashboard.html">DOCS</a>
 </div>
 
 <div class="card">
 <h3>SistemaCrea</h3>
-<p>Plataforma Java EE + Jakarta + integrações governamentais.</p>
+<p>Java EE platform + Jakarta + government integrations.</p>
 <div>
 <span class="tag">Java</span>
 <span class="tag">Payara</span>
 <span class="tag">API</span>
 </div>
-<a class="btn" href="https://github.com/creapiaui/SistemaCrea">Repositório</a>
+<a class="btn" href="docs/sistemacrea.html">DOCS</a>
 </div>
 
 </div>
 </div>
 
 <footer>
-CREA-PI • Inovação e Transformação Digital • Proposta: Lab de Pesquisa & Desenvolvimento (P&D) • Tech Hub — @s-v7	
+<span data-site-text></span>
 </footer>
 
+<script src="assets/js/site-config.js"></script>
 </body>
 </html>
 

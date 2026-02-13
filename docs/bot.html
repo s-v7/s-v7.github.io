@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CREAPI Public Bot — Technical Docs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+
+<nav>
+<div class="nav-title">Technical Hub — CREAPI + AI</div>
+<div class="nav-links">
+<a href="../index.html">Hub</a>
+<a href="https://github.com/creapiaui" target="_blank">Org</a>
+</div>
+</nav>
+
+<header>
+<h1>CREAPI Public Normative Bot</h1>
+<div class="subtitle">
+Institutional Guidance Bot — Normative + RAG + Routing
+</div>
+</header>
+
+<div class="docs-layout">
+
+<div class="docs-sidebar">
+
+<h3>Projects</h3>
+<a href="art-engine.html">ART Analysis Engine</a>
+<a href="bot.html">CREAPI Public Bot</a>
+<a href="dashboard.html">Dashboard CREAPI</a>
+<a href="sistemacrea.html">SistemaCrea</a>
+
+<h3 style="margin-top:18px">Sections</h3>
+<a href="#overview">Overview</a>
+<a href="#architecture">Architecture</a>
+<a href="#knowledge">Knowledge Base</a>
+<a href="#routing">Organogram Routing</a>
+<a href="#guardrails">Guardrails</a>
+
+</div>
+
+<div class="docs-content">
+
+<div class="card" id="overview">
+<h3>Overview</h3>
+
+<p>
+CREAPI Public Bot is a modular institutional assistant designed to provide
+normative and procedural guidance for professionals and companies within
+the CONFEA/CREA ecosystem.
+</p>
+
+<p>
+It delivers structured, official-oriented answers based on normative
+knowledge bases, institutional flows and supervised LLM fallback —
+without accessing personal or confidential data.
+</p>
+
+</div>
+
+<div class="card" id="architecture">
+<h3>Architecture Layers</h3>
+
+<ul>
+<li>Intent classification layer</li>
+<li>Knowledge module routing</li>
+<li>Normative markdown knowledge base</li>
+<li>Organogram-based service routing</li>
+<li>Institutional response formatter</li>
+<li>LLM normative fallback</li>
+<li>Telegram notifier integration</li>
+<li>Event + webhook integration layer</li>
+</ul>
+
+</div>
+
+<div class="card" id="knowledge">
+<h3>Knowledge Modules</h3>
+
+<ul>
+<li><b>knowledge/mod_art</b> — ART guidance</li>
+<li><b>knowledge/mod_cat</b> — CAT guidance</li>
+<li><b>knowledge/mod_pf</b> — PF registration</li>
+<li><b>knowledge/mod_pj</b> — PJ registration</li>
+<li><b>knowledge/mod_financeiro</b> — annuities & fees</li>
+<li><b>knowledge/mod_fiscal</b> — inspection</li>
+<li><b>knowledge_normas/</b> — normative corpus</li>
+</ul>
+
+<p>
+Knowledge is structured in Markdown and versionable for governance.
+</p>
+
+</div>
+
+<div class="card" id="routing">
+<h3>Organogram Routing</h3>
+
+<p>
+Institutional routing maps user topics to CREA departments and divisions,
+ensuring correct guidance and official channel direction.
+</p>
+
+<ul>
+<li>ART → ART Division</li>
+<li>CAT → Technical Acervo</li>
+<li>PF/PJ → Registration Sector</li>
+<li>Financial → Collection Sector</li>
+<li>Inspection → Fiscalization Sector</li>
+</ul>
+
+</div>
+
+<div class="card" id="guardrails">
+<h3>Security Guardrails</h3>
+
+<ul>
+<li>No personal data lookup</li>
+<li>No process status disclosure</li>
+<li>No credential handling</li>
+<li>Sensitive identifiers blocked</li>
+<li>Official channel redirection enforced</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h3>LLM Usage Policy</h3>
+
+<ul>
+<li>Used only for complex normative explanation</li>
+<li>Institutional prompt template</li>
+<li>No normative invention allowed</li>
+<li>Must recommend official confirmation when uncertain</li>
+</ul>
+
+</div>
+
+<div class="card notice-private">
+<h3>Private Codebase — Public Technical Documentation</h3>
+<p>
+Implementation code, routing logic and integration connectors are private
+due to institutional security and regulatory requirements. This page
+documents architecture, scope and governance model only.
+</p>
+</div>
+
+</div>
+</div>
+
+<footer>
+CREAPI Technical Hub — Documentation Layer
+</footer>
+
+</body>
+</html>
+
